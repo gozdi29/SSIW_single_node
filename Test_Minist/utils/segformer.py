@@ -850,7 +850,7 @@ class SegFormer(nn.Module):
         #                                                 in_index=3,
         #                                                 dilations=(1, 3, 6, 9),
         #                                                 dropout_ratio=0.1,
-        #                                                 norm_cfg=dict(type='SyncBN', requires_grad=True),
+        #                                                 norm_cfg=dict(type='BN', requires_grad=True),
         #                                                 align_corners=False,)
 
         self.head = SegFormerHead(num_classes=num_classes,
@@ -860,14 +860,14 @@ class SegFormer(nn.Module):
                                   feature_strides=[4, 8, 16, 32],
                                   #decoder_params=dict(embed_dim=768),
                                   dropout_ratio=0.1,
-                                  norm_cfg=dict(type='SyncBN', requires_grad=True),
+                                  norm_cfg=dict(type='BN', requires_grad=True),
                                   align_corners=False)
         self.auxi_net = FCNHead(num_convs=1,
                                 kernel_size=3,
                                 concat_input=True,
                                 in_channels=320,
                                 num_classes=num_classes,
-                                norm_cfg=dict(type='SyncBN', requires_grad=True))
+                                norm_cfg=dict(type='BN', requires_grad=True))
         self.init_weights(load_imagenet_model, imagenet_ckpt_fpath)
 
     def init_weights(self, load_imagenet_model: bool=False, imagenet_ckpt_fpath: str='') -> None:
