@@ -1,0 +1,12 @@
+background: background in image such as sky.
+facade:  facade is generally the front part or exterior of a building.
+window: a window is an opening in a wall, door, roof, or vehicle that allows the exchange of light and may also allow the passage of sound and sometimes air.
+door: a door is a hinged or otherwise movable barrier that allows ingress (entry) into and egress (exit) from an enclosure.
+cornice: In architecture, a cornice is generally any horizontal decorative moulding that crowns a building or furniture element, for example, the cornice over a door or window.
+sill: The bottom of a system, window, door, framing member. The sill is a common reference for the last member prior to the ground, or the supporting structure below.
+balcony: A balcony is a platform projecting from the wall of a building, supported by columns or console brackets, and enclosed with a balustrade, usually above the ground floor.
+blind: A window blind is a type of window covering. A typical window blind is made up of several long horizontal or vertical slats of various types of hard material, including wood, plastic or metal which are held together by cords that run through the blind slats.
+deco: The decorative arts are arts or crafts whose object is the design and manufacture of objects that are both beautiful and functional. It includes most of the arts making objects for the interiors of buildings, and interior design.
+molding: modling is a strip of material with various profiles used to cover transitions between surfaces or for decoration. It is traditionally made from solid milled wood or plaster, but may be of plastic or reformed wood. In classical architecture and sculpture, the moulding is often carved in marble or other stones.
+pillar: A column or pillar in architecture and structural engineering is a structural element that transmits, through compression, the weight of the structure above to other structural elements below. The term column applies especially to a large round support (the shaft of the column) with a capital and a base or pedestal, which is made of stone, or appearing to be so.
+shop: A casual word for a commercial establishment or for a place of business
